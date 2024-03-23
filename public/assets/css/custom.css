@@ -1,0 +1,71 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /* 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* 'Montserrat', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); /* 'Oswald', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap'); /* 'Maven', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+
+/*Configurações personalidas de CSS*/
+
+html > * {
+     font-family: 'Prompt', sans-serif !important;
+     min-width: 360px !important;
+     max-height: 100% !important;
+     background-image: url("../../storage/images/html-background.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+
+body {
+     max-height: 100% !important;
+     overflow-y: hidden;
+}
+
+#main-container{
+     height: 100vh !important;
+     background-color: transparent;
+     background-image: url("../../storage/images/sunrise-laranja.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center center;
+}
+
+.nav-link{
+     color: white !important;
+     font-weight: 700;
+     margin-left: 1em;
+}
+
+.nav-link:hover{
+     color: white !important;
+     border-bottom: 3px solid white;
+     padding-bottom: 3px;
+     font-weight: 700;
+     -webkit-transition: background-color 1000ms horizontal;
+     -webkit-transition: color 1000ms linear;
+     -moz-transition: background-color 1000ms linear;
+     -moz-transition: color 1000ms linear;
+     -ms-transition: background-color 1000ms horizontal;
+     -ms-transition: color 1000ms linear;
+     -o-transition: background-color 1000ms horizontal;
+     -o-transition: color 1000ms linear;
+     
+}
+
+
+#date-title{
+     color:white;
+     font-weight: 700;
+}
+
+#form-box{
+     height: 80vh;
+}
+
+#btn-date{
+     float: right;
+     color: white;
+}
+
